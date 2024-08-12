@@ -24,8 +24,17 @@ Table of Contents:
 
 
 
+
+
+
+
 1. Introduction
 The Spring Boot Expense Tracker is a web application designed to help users manage and track their expenses effectively. It allows users to add, view, edit, and delete expense records. The application also provides features for categorizing expenses and generating reports.
+
+
+
+
+
 
 
 2. Prerequisites
@@ -33,6 +42,9 @@ Java 17 or higher
 Maven 3.6 or higher
 PostgreSQL (or another compatible database)
 Spring Boot 3.x
+
+
+
 
 
 3. Installation
@@ -50,6 +62,11 @@ mvn spring-boot:run
 
 
 
+
+
+
+
+
 4. Configuration
 Database Configuration: Update the application.properties or application.yml file with your database credentials.
 
@@ -58,6 +75,11 @@ spring.datasource.url=jdbc:postgresql://localhost:5432/expense_tracker
 spring.datasource.username=your_db_username
 spring.datasource.password=your_db_password
 spring.jpa.hibernate.ddl-auto=update
+
+
+
+
+
 
 
 5. Features
@@ -69,6 +91,12 @@ Categorize Expenses: Organize expenses into predefined or custom categories.
 Generate Reports: Create reports based on time periods or categories.
 
 
+
+
+
+
+
+
 6. API Endpoints
 GET /expenses: Retrieve all expenses.
 POST /expenses: Create a new expense.
@@ -77,9 +105,22 @@ PUT /expenses/{id}: Update an existing expense.
 DELETE /expenses/{id}: Delete an expense.
 
 
+
+
+
+
+
 7. Usage
 Access the application in your browser at http://localhost:8080.
 Use the navigation menu to access different features like adding a new expense or viewing reports.
+
+
+
+
+
+
+
+
 
 
 8. Contributing
