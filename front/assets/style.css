@@ -1,0 +1,43 @@
+:root{
+    --bg-color: #0caadc;
+    --primary-text-color: #232323;
+    --secondary-text-color: rgb(238, 55, 92);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('https://cdn.pixabay.com/photo/2016/09/13/19/31/texture-1668079_960_720.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {     
+    background: white;
+    padding: 30px 20px;
+    height: auto;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px 5px rgba(0,0,0,.2);
+}
+#register-login {
+    color: var(--primary-text-color);
+}
+#register-login label{
+    color: var(--secondary-text-color);
+}
+.auth-toggle{
+    color: var(--secondary-text-color);
+    cursor: pointer;
+}
+.hide-auth{
+    display: none;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Expense - Login/Register</title>
+</head>
+
+<body>
+    <div class="main">
+        <div id="register-login">
+            <div class="container">
+                <div class="auth-form">
+                    <div class="login">
+                        <h2>Login</h2>
+                        <div class="mb-3">
+                            <label for="lusername" class="form-label">User Name</label>
+                            <input type="text" class="form-control" id="lusername">
+                        </div>
+                        <div class="mb-3">
+                            <label for="lpassword" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="lpassword" aria-describedby="passHelp">
+                            <div id="passHelp" class="form-text">Think carefully.</div>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-dark btn-lg" id="login-submit">Submit</button>
+                            <p class="pt-2 text-center">Not registered yet? <span class="auth-toggle">Click
+                                    Here</span> to sign up!!</p>
+                        </div>
+                    </div>
+                    <div class="register hide-auth">
+                        <h2>Register</h2>
+                        <div class="mb-3">
+                            <label for="rname" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="rname">
+                        </div>
+                        <div class="mb-3">
+                            <label for="rusername" class="form-label">User Name</label>
+                            <input type="text" class="form-control" id="rusername">
+                        </div>
+                        <div class="mb-3">
+                            <label for="remailAddress" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="remailAddress" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="rpassword" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="rpassword" aria-describedby="passHelp">
+                            <div id="rpassHelp" class="form-text">Make it strong. Show me your creativity.</div>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-dark btn-lg" id="signup-submit">Submit</button>
+                            <p class="pt-2 text-center">Already Signed up? <span class="auth-toggle bold">Click
+                                    Here</span> to sign in!!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://getbootstrap.com/docs/5.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
