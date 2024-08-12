@@ -4,13 +4,21 @@ Spring Boot Expense Tracker Documentation
 
 Table of Contents:
 1.Introduction
+
 2.Prerequisites
+
 3.Installation
+
 4.Configuration
+
 5.Features
+
 6.API Endpoints
+
 7.Usage
+
 8.Contributing
+
 9.License
 
 
