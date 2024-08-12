@@ -28,6 +28,8 @@ Table of Contents:
 
 
 
+
+
 1. Introduction
 The Spring Boot Expense Tracker is a web application designed to help users manage and track their expenses effectively. It allows users to add, view, edit, and delete expense records. The application also provides features for categorizing expenses and generating reports.
 
